@@ -29,3 +29,5 @@ it("props.color check", () => {
   //expect(wrapper.props()).toEqual({ color: "red" }); //this DOES NOT WORKS, because %99.9 props have many objects, not only color
   expect(wrapper.props().color).toEqual(mockColor);
 });
+
+//h@zy;kmi$

@@ -25,3 +25,9 @@ similar to what's shallow and mount does. However the differences that render us
 # snapshot matching tests:
 
 When you first created your test about a component, it's shallowed snapshot is stored in "__snapshots__" folder. Later if you make some changes on this component (for example if you add/remove a class, or add a new div/p/h1/etc or remove ...) this test warns you about that the components current look is different from the previous snapshot. And it clearly shows where is the difference. This situation might happens when somebody works on your code. Because of that IT IS A GOOD IDEA TO PUSH YOUR SNAPSHOTS TO GITHUB.
+
+# coverage testing
+
+> npm test -- --coverage
+
+![Test Result Image](coverage-testing-coverage-testing-results.png]
