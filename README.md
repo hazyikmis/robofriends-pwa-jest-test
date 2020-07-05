@@ -30,4 +30,4 @@ When you first created your test about a component, it's shallowed snapshot is s
 
 > npm test -- --coverage
 
-![Test Result Image](coverage-testing-coverage-testing-results.png]
+![Test Result Image](coverage-testing-coverage-testing-results.png)
